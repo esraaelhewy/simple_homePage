@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #F2F9FE;
+}
+
+#theme-toggle{
+    cursor: pointer;
+}
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style-type: none;
+}
+nav > h1{
+    color:#111729;
+    font-weight: 900;
+}
+.myNav{
+    margin-left:30%
+}
+.first-link{
+    color:#2A4DD0 !important;
+    border-bottom : 2px solid #2A4DD0;
+}
+.myNav ul li a{
+    margin:0px 10px;
+    color:#909193;
+    font-weight: 600;
+}
+
+.content{
+    margin:2% 4%;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-content{
+    width:50%;
+}
+.left-content > p{
+    font-weight: 600;
+    color: #223344;
+    font-size: 14px;
+    width:100%;
+}
+.left-content > h2{
+    color: #223344;
+    font-size:60px ;
+    width: 100%;
+    font-weight: 800;
+    padding:10px;
+}
+.left-content > h2 + p{
+    font-size: 18px;
+    margin:25px 0px
+}
+.left-content > button{
+    padding:10px 25px;
+    background-color: #2A4DD0;
+    margin-right:20px;
+    border-radius: 8px;
+}
+.left-content > button:hover{
+    background-color: #2A4DD0;
+}
+.left-content .lists{
+    display: flex;
+    margin:20px 0px;
+}
+.left-content .lists li{
+    list-style-image: url("../images/Done_ring_round_fill.svg");
+    margin:0px 30px;
+}
+.right-content{
+    width:50%;
+}
+.right-content img{
+    width:100%;
+}
+
+.none{
+    display: none;
+}
+body.dark-mode{
+    background-color: #111729 ;
+    color:#FFFFFF  ;
+}
+body.light-mode{
+    color:#223344 ;
+    background-color: #F2F9FE;
+}
+
+@media (max-width:1024px) {
+    nav > h1{
+        font-weight: 700;
+    }
+    .myNav{
+        margin:10px 0px
+    }
+    .first-link{
+        border:none;
+    }
+    .myNav ul li a{
+        margin:0px 10px;
+        font-weight: 600;
+    }
+    .content{
+        margin:0px 30px;
+    }
+    .left-content{
+        width:60%;
+    }
+    .left-content > p{
+        margin-top:20px;        
+    }
+    .left-content > h2{
+        font-size:45px ;
+        width: 100%;
+        font-weight: 700;
+    }
+    .left-content > h2 + p{
+        font-size: 15px;
+        margin:20px 0px
+    }
+    .left-content > button{
+        width:50%;
+    }
+    .left-content .lists{
+        width: 100%;
+    }
+    .left-content .lists li{
+        list-style-image: url("../images/Done_ring_round_fill.svg");
+        margin:0px 10px;
+        font-size: 16px;
+        width:100%
+    }
+    .right-content{
+        width:40%;
+    }
+    .right-content img{
+        width:100%;
+    }
+    .author-info{
+        margin:0px 30px;
+    }
+    .author-info a{
+        width:14px;
+        color:#2A4DD0;
+    }
+}
+
+@media (max-width:800px) {
+    nav > h1{
+        font-weight: 700;
+    }
+    .myNav{
+        margin-left:0%
+    }
+    .first-link{
+        border: none;
+    }
+    .myNav ul li a{
+        margin:5px 0px;
+        font-weight: 400;
+    }
+    .content{
+        margin:0px 20px;
+        padding:0px;
+        display: block;
+    }
+    .left-content{
+        width:100%;
+    }
+    .left-content > p{
+        margin-top:30%;
+        font-weight: 500;
+        font-size: 14px;
+        width:100%;
+    }
+    .left-content > h2{
+        font-size:35px ;
+        width: 100%;
+        font-weight: 700;
+    }
+    .left-content > h2 + p{
+        font-size: 15px;
+        margin:20px 0px
+    }
+    .left-content > button{
+        width:50%;
+    }
+    .left-content .lists{
+        width: 100%;
+    }
+    .left-content .lists li{
+        list-style-image: url("../images/Done_ring_round_fill.svg");
+        margin:0px 30px;
+        font-size: 12px;
+        width:100%
+    }
+    .right-content{
+        width:100%;
+    }
+    .right-content img{
+        width:30%;
+        position:absolute;
+        top:5%;
+        left:30%
+    }
+    .author-info{
+        margin: 0px 20px;
+    }
+    .author-info a{
+        width:14px;
+        color:#2A4DD0;
+    }
+}
+
